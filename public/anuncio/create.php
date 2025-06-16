@@ -5,11 +5,35 @@
 ?>
 
 <form action="create.php" method="POST">
-   <label for="username">Nome do Usuario</label>
-   <input type="text" name="username" id="username">
+   <label for="titulo_anuncio">titulo de anuncio</label>
+   <input type="text" name="titulo_anuncio" id="titulo_anuncio">
    <br><br>
-   <label for="password">senha</label>
-   <input type="password" name="password" id="password">
+   <label for="descricao_anuncio">descrição do anuncio</label>
+   <input type="text" name="descricao_anuncio" id="descricao_anuncio">
+   <br><br> 
+   <label for="data_publicacao">senha</label>
+   <input type="date" name="data_publicacao" id="data_publicacao">
+   <br><br> 
+   <label for="marca_veiculo">senha</label>
+   <input type="text" name="marca_veiculo" id="marca_veiculo">
+   <br><br> 
+   <label for="modelo_veiculo">senha</label>
+   <input type="text" name="modelo_veiculo" id="modelo_veiculo">
+   <br><br> 
+   <label for="ano_veiculo">senha</label>
+   <input type="date" name="ano_veiculo" id="ano_veiculo">
+   <br><br> 
+   <label for="cor_veiculo">senha</label>
+   <input type="text" name="cor_veiculo" id="cor_veiculo">
+   <br><br> 
+   <label for="placa_veiculo">senha</label>
+   <input type="text" name="placa_veiculo" id="placa_veiculo">
+   <br><br> 
+   <label for="nome_proprietario">senha</label>
+   <input type="text" name="nome_proprietario" id="nome_proprietario">
+   <br><br> 
+   <label for="telefone_proprietario">senha</label>
+   <input type="number" name="telefone_proprietario" id="telefone_proprietario">
    <br><br> 
    <button type="submit">Cadastrar</button>
 </form>
