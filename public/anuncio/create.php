@@ -11,7 +11,7 @@
    <label for="descricao_anuncio">descrição do anuncio</label>
    <input type="text" name="descricao_anuncio" id="descricao_anuncio">
    <br><br> 
-   <label for="data_publicacao">senha</label>
+   <label for="data_publicacao">data de publicação</label>
    <input type="date" name="data_publicacao" id="data_publicacao">
    <br><br> 
    <label for="marca_veiculo">senha</label>
